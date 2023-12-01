@@ -7,3 +7,5 @@ How to use:
 * As the code runs, it will first output a list of sites and RF profiles with Client Balancing enabled (templates will be separate from non-template networks)
 * It will then ask you if you want to proceed and disable Client Balancing in those profiles, which you should answer with Y or N via keyboard input
 * Regardless of what you do, it will output a .csv file with the list of sites and profiles with the feature enabled
+
+CAUTION: Disabling client balancing in a production environment may cause a temporary disruption in client traffic, so it's best to do it during low traffic hours.
